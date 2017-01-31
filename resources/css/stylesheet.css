@@ -1,0 +1,305 @@
+.body-container{
+  height:  = 1060px;
+  background-color: #F9F9F2;
+  width:auto;
+
+}
+
+.navigation{
+  background-color: #000000;
+  height: 60px;
+  width: auto;
+  color: white;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+#manuevers {
+  color: grey;
+}
+
+.upper {
+  height: 525px;
+  width:auto;
+
+  background-color: #F9F9F2;
+  border-left: 15px solid #E0EAEA;
+  border-right: 15px solid #E0EAEA;
+
+}
+
+.nav .nav-pills{
+  color:green;
+}
+.top-pane h2 {
+  font-weight: bolder;
+  text-align: left;
+  font-size: 40px;
+}
+
+.top-pane p {
+  font-weight: normal;;
+  text-align: left;
+  font-size: 32px;
+}
+
+.top-pane a {
+  text-decoration: none;
+  color:black;
+}
+
+.top-pane a:hover {
+  text-decoration: none;
+  color:grey;
+}
+
+
+
+.col-sm-6 {
+  border: 2px solid  #E0EAEA;
+  border-radius: 15px;
+  margin-top: 10px;
+
+  height: 475px;
+  width:auto;
+  background-color: #F9F9F2;
+}
+
+.upper-right {
+  background-color: #F9F9F2;
+}
+
+.upper-right h2{
+  color:red;
+  text-align: center;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.lower {
+  height: 375px;
+  width:auto;
+  background-color: #F9F9F2;
+  border-left: 15px solid #E0EAEA;
+  border-right: 15px solid #E0EAEA;
+    border-radius: 15px;
+
+
+
+}
+
+.left-left-row {
+
+  background-color: #F9F9F2;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.lower-pane {
+  border: 2px solid  #E0EAEA;
+  border-radius: 15px;
+
+  height: 320px;
+  width:auto;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+.left-right-column {
+  border: 2px solid  #E0EAEA;
+  height: 315px;
+  width:auto;
+  border-radius: 15px;
+  background-color: #E0EAEA;
+
+}
+
+.left-left-column {
+  background-color: #F9F9F2;
+  height: 315px;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+
+  }
+
+.left-left-column h2 {
+  text-align : center;
+  color : red;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.left-left-column ul {
+  list-style: none;
+
+}
+.left-left-column li {
+  text-align: center;
+}
+
+.left-left-column li .btn {
+  border: : 0 none;
+  font-size: 32px;
+  background-color: #F9F9F2;
+  outline: 0 none;
+
+}
+
+.left-left-column hr{
+  width: 100%;
+  height: 2px;
+  background:  black;
+  padding-bottom: 0;
+  margin-bottom:0;
+  padding-top: 0;
+  margin-top: 0;
+
+}
+
+.left-left-column btn:hover {
+  border: : 0px solid transparent;
+
+  color: red;
+}
+
+.left-right-column {
+  height: : 300px;
+  width: auto;
+}
+
+#left-right-right-top, #left-right-right-bottom, #left-right-right-mid-left {
+  height: : 300px;
+  width: auto;
+  text-align: left;
+  font-size: 32px;
+  margin-left: 10px;
+}
+#left-right-right-mid-right {
+  background-color: #F9F9F2;
+  padding-top: 10px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border-radius: 15px;
+  height: 150px;
+  width: auto;
+}
+
+#left-right-right-mid-left p {
+  margin-top: 20px;
+
+  text-align: left;
+  font-weight: bold;
+}
+
+#left-right-right-mid-right p {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  font-size: 32px;
+  color: red;
+  font-weight: bold;
+}
+
+
+#firstcap {
+  color: red;
+}
+
+.right-right-pane {
+  background-color: #F9F9F2;
+  height: 320px;
+  width: auto;
+  border: 2px solid  #E0EAEA;
+  border-radius: 15px;
+}
+
+.right-right-pane h3{
+  text-align: center;
+  color:red;
+  font-weight: bold;
+}
+
+.right-right-pane a{
+  background-color: #E0EAEA;
+  border:none;
+  color:grey;
+  margin-right: 50px;
+
+}
+
+
+.footer {
+  background-color: #000000;
+  height: 50px;
+  width: auto;
+  color: white;
+}
+
+
+div.thumbnail {
+    margin: 0px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    background-color: ##F9F9F2;
+}
+
+div.thumbnail:hover {
+    border: 1px solid #777;
+}
+
+div.thumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 5px;
+    text-align: center;
+}
+
+.skill-buttons-display h4{
+  text-align: center;
+  color: red;
+  font-weight: bold;
+}
+
+
+.platforms-display {
+  color:red;
+}
+
+.platforms-display li{
+ list-style: none;
+ display: inline;;
+}
+
+
+
+.skill-buttons-display li{
+  list-style: none;;
+}
+
+.skill-buttons {
+
+  width: 125px;
+  height: auto:
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius:  100%;
+  padding: 2px 2px 2px 2px;
+  margin:2px 2px 2px 2px;
+  text-align: center;
+}
+
+.skill-buttons:hover {
+  border: none;
+  text-decoration: none;
+
+}
+
+.skill-buttons:active {
+  border: none;
+  text-decoration: none;
+
+}
