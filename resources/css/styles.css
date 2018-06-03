@@ -1,12 +1,37 @@
-
+html{
+  margin: 0 auto;
+  background-color: black;
+  
+  
+}
 body{
-
   height: 100%;
-  font-family: 'Biryani';font-size: 24px;
+  font-family: 'Varela Round', sans-serif;
+  font-size:24px;
   display:flex;
   flex-flow: row wrap;
+  width: 100%;
+   
+  margin: 0 auto;
+  justify-content: center;
+  background-color: black;
+   
+  
+ 
+   
 }
 
+main{
+   
+  width: 95%;
+  
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: center;
+  border: 2px color red;
+  
+}
 
 #manuevers {
   color: grey;
@@ -28,37 +53,49 @@ body{
 
 
 .main_container{
-  width: 960px;
+  
   margin: 0 auto;
   display:flex;
   flex-flow: row wrap;
   background-color: white;
-  height: auto%;
+  height: auto;
   flex-wrap: wrap;
+  background-color: black;
+  width: 100%;
+  justify-content: center;
+  border: 2px color red;
 
 
 }
 
-
-
-
 .top-navigation, .footer{
-  background-color: #FEEAB6;
+  background-color:black;
   height: auto;;
-  color: black;
+  color: whitesmoke;
   padding: 5px;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+   
 
 }
-
+.top-navigation{
+  position: fixed;
+  top:0;
+  z-index: 10;
+  height: 15%;
+  width: 100%;
+  min-width:95%;
+}
 .navigation, .footer_nav {
-    width: 960px;
+    width: 100%;
     margin: 0 auto;
+    height: 20px;
+     
+     
 }
 
-
+ 
 .navigation h2{
   margin: 0;
   padding: 0;
@@ -88,7 +125,7 @@ body{
 .nav_second {
   display: flex-inline;
   flex-wrap: nowrap;
-  width: 80%
+  width: 60%
 }
 
 a, a:hover {
@@ -100,7 +137,7 @@ a:hover{
 }
 
 .nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus{
-background-color: #FEEAB6;
+background-color:whitesmoke;
 color:grey;
 text-decoration: none;
 
@@ -122,15 +159,32 @@ text-decoration: none;
 .thumbnail img {
   width: 90%;
   height: auto;
-  margin: 2px;
-  padding: 2px;
+  margin: .5rem;
+  padding: .5rem;
 
+}
+
+.left_column{
+  background: black;
+  height: 100vh;
+  color:white;
+  background-image: url("../../resources/images/main_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-width: 100%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border: 2px color red;
+   
 }
 .my_portfolio {
   margin: 0 auto;
 
-  width: 60%;
-  display: flext;
+  width: 100%;
+  display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -146,8 +200,8 @@ portfolio_row {
 
   background-image: url("../../resources/images/office-583839_640.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
-  height: 400px;
+  background-size: cover;
+  height: 100vh;
   width: 100%;
   text-align: center;
   position:relative;
@@ -160,8 +214,8 @@ portfolio_row {
 
   background-image: url("../../resources/images/ipad-577746_960_720.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
-  height: 400px;
+  background-size: cover;
+  height: 500px;
   width: 100%;
   text-align: center;
   position:relative;
@@ -175,8 +229,8 @@ portfolio_row {
 
   background-image: url("../../resources/images/programming-1836330_640.png");
   background-repeat: no-repeat;
-  background-size: contain;
-  height: 400px;
+  background-size: cover;
+  height: 500px;
   width: 100%;
   text-align: center;
   position:relative;
@@ -203,12 +257,18 @@ portfolio_row {
 .footer {
 margin: 0 auto;
 align-content: space-between;
-background-color: grey;
-
+ 
+position: fixed;
+bottom:0;
+height: 10%;
+text-align: center;
+ 
 }
+
 footer_cats {
   display: flex;
   justify-content: space-around;
+   
 }
 
 .footer ul{
@@ -226,4 +286,25 @@ footer_cats {
   color:seashell;
 
 
+}
+ 
+#contactContainer, #separatorContainer{
+  width:100%;
+  margin-top: 3rem;
+}
+
+#contactSeparator{
+   
+  border-bottom: 8px solid black;
+  width: 10%;
+  margin: 0 auto;
+ 
+
+}
+#contact{
+  align-content: center;
+  border: 2px white solid;
+  width:15%;
+  padding: 1rem;
+  
 }
