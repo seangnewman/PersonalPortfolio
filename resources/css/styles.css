@@ -125,7 +125,7 @@ main{
 .nav_second {
   display: flex-inline;
   flex-wrap: nowrap;
-  width: 60%
+  width: 80%
 }
 
 a, a:hover {
