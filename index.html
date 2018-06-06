@@ -12,120 +12,111 @@
 </head>
 <body>
 
-<main>
-
-
-  <nav class="top-navigation">
-    <div class="navigation">
-      <h3><img src="./resources/images/logo-transparent.png"/>NEWMAN<span id="manuevers">UEVERS</span></h3>
-      <h5>
-      <div class="stack"><span id="full_stack">Full Stack Development and Design</span>
-       <ul class="nav nav-pills pull-right">
-         <li class="active"><a href="#">Home</a></li>
-         <li><a href="#">Blog</a></li>
-         <li><a href="#">Portfolio</a></li>
-         <li><a href="#">Contact</a></li>
-
+  <main>
+    <nav class="topnav" id="myTopnav">
+      <div class="navigation">
+        <h3><img src="./resources/images/logo-transparent.png"/>NEWMAN<span id="manuevers">UEVERS</span></h3>
+        <h5>
+        <div class="stack"><span id="full_stack">Full Stack Development and Design</span>
+         <ul class="nav nav-pills pull-right">
+         <a class="active" href="#">Home</a>
+         <a href="#">Blog</a>
+         <a href="#">Portfolio</a>
+         <a href="#">Contact</a>
+         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
        </ul>
      </div>
    </h5>
 
     </div><!-- End of Navigation -->
   </nav>
-
-
-  <div class="main_container">
-
-
-
+  <section class="main_container">
     <div class="top_row">
-      <div class="left_column">
+      <div id="mainImage">
         <h1>Sean Newman</h1>
         <h2>Full Stack Web &amp; Application Developer</h2>
         <div id="separatorContainer">
             <div id="contactSeparator"></div>
         </div>
-        
         <div id="contactContainer">
           <a href="#" id="contact">Let's Connect</a>
         </div>
-        
-
-        
       </div><!-- end of Left column-->
-        <div class="my_portfolio">
-
-          <div class="portfolio">
-          <div class="portfolio_row">
-            <h1>Responsive Web Design and Development</h1>
-            <div class="responsive_design">
-              <div class="portfolioContainer">
-                <div class="portfolioImageContainer">
-                  <a href="#" target="_blank">
-                    <img src="./resources/images/construction.png" alt="Serialized Burger!">
-                  </a>
-                  <div class="portfolioLabelContainer">
-                    <p>Coming Soon : Serialized Burger!</p>
-                  </div>
-                </div>
-                <div class="portfolioImageContainer">
-                  <a href="https://murmuring-bastion-45956.herokuapp.com/" target="_blank">
-                    <img src="./resources/images/compete-together.PNG" alt="webpack, socket.io, ejs, passport">
-                  </a>
-                  <div class="portfolioLabelContainer">
-                    <p>Full Stack : Compete Together</p>
-                  </div>
-                </div>
-              </div>
-              
-          </div> <!-- end of thumbnail -->
-            <h1>Android Development</h1>
-            <div class="mobile_design">
-              <div class="coming_soon">
-                <h3><span class= "firstcapClass" id="firstcap">M</span>obile <span class= "firstcapClass" id="firstcap">A</span>pplications designed to enhance and extend the user experience.</h3>
-              <a target="_blank" href="#">
-                <h4>Coming Soon</h4>
-              </a>
-            </div>
-            </div> <!-- end of thumbnail -->
-            <h1>Application Development</h1>
-            <div class="app_dev">
-              <div class="coming_soon">
-                <h3>Utilize platforms such as <span class= "firstcapClass" id="firstcap">A</span>SP.NET, <span class= "firstcapClass" id="firstcap">J</span>2EE and <span class= "firstcapClass" id="firstcap">F</span>lask to quickly develop new or enhance existing applications.</h3>
-              <a target="_blank" href="#">
-                <h4>Coming Soon</h4>
-              </a>
-            </div>
-            </div> <!-- end of thumbnail -->
-          </div> <!-- End of  Row -->
-          </div> <!-- End of Portfolio Row -->
-
-        </div>
-        </div>
-
-        <div>
-          <p>
-          If you would like to learn more about me, you can review my work on <a href="https://github.com/" target="_blank"><span class= "firstcapClass" id="firstcap">g</span>ithub</a>,
-          <a href="https://codepen.io/#" target="_blank"><span class= "firstcapClass" id="firstcap">c</span>odepen</a>,
-          <a href="https://www.behance.net/" target="_blank"><span class= "firstcapClass" id="firstcap">b</span>ehance</a>
-          and <a href="https://dribbble.com/" target="_blank"><span class= "firstcapClass" id="firstcap">d</span>ribbble</a>.   Please feel free to
-          follow me on <a href="https://twitter.com/">twitter</a>.
-        </p>
-        <p>
-        Curious to know what I am working on, you should follow my <a href="#" target = "_blank">blog.</a></div>
-       </p>
-
-        </div>
-
+      </div> <!-- End of Top Row -->
+      <div id="carotContainer">
+        <a id="dcarot" href="#pAnchor"><i class="fa fa-caret-down fa-3x"></i> </a>
       </div>
-        <div class="footer" id="end_footer">
+      
+  </section>
+   
+  <section class="portfolio">
+    
+    
+    <div class="responsive_design">
+     
+      <div class="portfolioContainer">
+        <div class="portfolioImageContainer">
+          <a href="#" target="_blank">
+            <img src="./resources/images/compete-together.PNG" alt="Serialized Burger!" id="pAnchor">
+          </a>
+          <div class="portfolioLabelContainer">
+            <p>Compete Together!</p>
+          </div>
+        </div>
+
+        <div class="portfolioImageContainer">
+          <a href="https://github.com/seangnewman/Codecademy-jammming" target="_blank">
+            <img src="./resources/images/jammming.PNG" alt="Serialized Burger!">
+          </a>
+          <div class="portfolioLabelContainer">
+            <p>React:Spotify Clone</p>
+          </div>
+        </div>
+
+        <div class="portfolioImageContainer">
+          <a href="https://seangnewman.github.io/RPS-Multiplayer/" target="_blank">
+            <img src="./resources/images/rps.PNG" alt="Serialized Burger!">
+          </a>
+          <div class="portfolioLabelContainer">
+            <p>Firebase:Rock Papers Scissors</p>
+          </div>
+        </div>
+
+        <div class="portfolioImageContainer">
+          <a href="" target="_blank">
+            <img src="./resources/images/construction.png" alt="Serialized Burger!">
+          </a>
+          <div class="portfolioLabelContainer">
+            <p>Coming Soon : Serialized Burger!</p>
+          </div>
+        </div>
+
+        <div class="portfolioImageContainer">
+          <a href="https://zahrafalah.github.io/project-1/" target="_blank">
+            <img src="./resources/images/unborable.PNG" alt="Serialized Burger!">
+          </a>
+          <div class="portfolioLabelContainer">
+            <p>Eventful API : Unborable</p>
+          </div>
+        </div>
+    </div>
+
+    
+
+    </div>
+  </section>
+
+  
+
+          <div class="footer" id="end_footer">
           <div class="footer_nav">
           <div class="footer_cats">
 
             <ul>
               <li><a href="#" target="_blank">About</a></li>
-              <li><a href="#" target="_blank">Blog</a></li>
-              <li><a href="#" target="_blank">Projects</a></li>
+              <li><a href="#" target="_blank">Portfolio</a></li>
               <li><a href="#" target="_blank">Contacts</a</li>
             </ul>
             <ul >
@@ -141,6 +132,6 @@
 
       </main>
 </body>
-
+<script src="./resources/js/scripts.js"></script>
 
 </html>
