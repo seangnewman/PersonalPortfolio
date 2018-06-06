@@ -25,12 +25,11 @@ main{
    
   width: 95%;
   
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 10%;
+  margin-bottom: 10%;
   display: flex;
   justify-content: center;
-  border: 2px color red;
-  
+   
 }
 
 #manuevers {
@@ -83,14 +82,14 @@ main{
   position: fixed;
   top:0;
   z-index: 10;
-  height: 15%;
+  height: 20%;
   width: 100%;
   min-width:95%;
 }
 .navigation, .footer_nav {
     width: 100%;
     margin: 0 auto;
-    height: 20px;
+    height: 2rem;
      
      
 }
@@ -197,10 +196,11 @@ portfolio_row {
   flex-wrap: wrap;
 }
 .responsive_design {
-
+/*
   background-image: url("../../resources/images/office-583839_640.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  */
   height: 100vh;
   width: 100%;
   text-align: center;
@@ -307,4 +307,55 @@ footer_cats {
   width:15%;
   padding: 1rem;
   
+}
+
+/* *************************************** */
+/* Portfolio Page                          */
+/* *************************************** */
+
+.portfolioContainer{
+  width: 95%;
+  height: auto;
+  float: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.portfolioImageContainer{
+  width: 50%;
+  height: auto;
+  float:left;
+  overflow: hidden;
+  margin: 0 .5rem .5rem 0.5rem;
+}
+
+.portfolioImageContainer img{
+  margin: 0 auto;
+  height: 30rem;
+  width: auto;
+  transition: .5s ease-in;
+}
+
+.portfolioImageContainer img:hover{
+  height:40rem ;
+  width:auto;
+  transition: .5s ease-out;
+  overflow:visible;
+}
+
+.portfolioLabelContainer{
+  width:100%;
+  position: relative;
+  background-color: #4aaaa5;
+  color:white;
+  bottom: 3rem;
+  height: 1.5rem;
+  text-align: center;
+}
+
+.portfolioLabelContainer p {
+  position: relative;
+  top: 15%;
+  font-style: italic;
+  font-weight: bold;
 }
