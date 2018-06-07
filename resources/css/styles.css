@@ -25,7 +25,7 @@ main{
    
   width: 95%;
   
-  margin-top: 8%;
+  margin-top: 5%;
   margin-bottom: 5%;
    
   justify-content: center;
@@ -174,7 +174,7 @@ text-decoration: none;
 
 #mainImage{
   background: black;
-  height: 70vh;
+  height: 71vh;
   color:white;
   background-image: url("../../resources/images/main_background.jpg");
   background-repeat: no-repeat;
@@ -484,5 +484,69 @@ main{
   margin-top:35%;
   font-size: 1rem;
 }
+#contactAside{
+  display: none;
+   
+}
+}
+
+
+/* *********************************************
+Contact Form
+********************************************** */
+#mainForm{
+  margin-top: 20rem;
+  width: 100%;
+   
+   
+  display:flex;
+  justify-content: center;
+
+}
+#contactFormContainer{
+  display:flex;
+  width:60%;
+  justify-content: center;  
   
+   
+}
+
+#contactAside{
+  width: 40%;
+  margin-right: 2rem; 
+  background-image: url("../../resources/images/main_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#emailContainer{
+  width: 100%;
+}
+
+#emailFormContainer{
+  margin: 0 auto;
+}
+#contactForm{
+  display:flex;
+  width:60%;
+   
+  margin: 0 auto; 
+  justify-content: center;
+}
+
+#contactFormInput{
+  display: flex;
+  flex-direction: column;
+  color:grey;
+    
+  width: 95%;
+}
+#emailSubmitContainer{
+  width:100%;
+  display:flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+#emailSubmit{
+  border-radius: .5rem;
+  width: 15%;
 }
