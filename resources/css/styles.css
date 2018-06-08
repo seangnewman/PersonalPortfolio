@@ -174,7 +174,7 @@ text-decoration: none;
 
 #mainImage{
   background: black;
-  height: 71vh;
+  height: 65vh;
   color:white;
   background-image: url("../../resources/images/main_background.jpg");
   background-repeat: no-repeat;
@@ -191,14 +191,18 @@ text-decoration: none;
 
 #carotContainer{
   width: 100%;
+  display: flex;
+  flex-direction: row;
   justify-content: center;
+  font-size: 4rem;
+  color:white;
    
   margin: 0 auto;
 }
 #carotContainer a{
   color:whitesmoke;
   text-align: center;
-  display:block;
+   
 }
 .portfolio{
   width: 100%;
@@ -378,8 +382,8 @@ footer_cats {
 .portfolioLabelContainer{
   width:55%;
   position: relative;
-  background-color: #4aaaa5;
-  color:white;
+  background-color:  #E6AD28;
+  color:black;
   bottom: 10rem;
   height: 6rem;
   text-align: center;
@@ -488,6 +492,10 @@ main{
   display: none;
    
 }
+
+#AboutMeAside{
+  display:none;
+}
 }
 
 
@@ -556,6 +564,12 @@ Contact Form
 /*
 About Page
 */
+
+#mainForm{
+  display:flex;
+  width: 100%;
+   
+}
 #AboutMeAside{
   width: 40%;
   height: auto;
@@ -568,8 +582,84 @@ About Page
 
 #AboutMeContainer{
   display:flex;
+  width: 80%;
 }
 #AboutContainer{
   width : 55%;
 
+}
+
+/*
+Portfolio
+*/
+
+#p_portfolio{
+   width: 80%;
+    height: auto;
+    
+}
+#p_featuredPortfolioContainer{
+   
+  width: 80%;
+   
+  margin: 0 auto;
+   
+}
+
+
+.p_portfolioImageContainer{
+  width: 50%;
+  height: auto;
+   
+  overflow: hidden;
+  
+   
+  display:inline-block;
+   
+   
+}
+
+.p_portfolioImageContainer img{
+  margin: 0 auto;
+  height: auto;
+  width: 50%;
+  
+   
+}
+
+ 
+
+.p_portfolioLabelContainer{
+  width:40%;
+  position: relative;
+  background-color:  #E6AD28;
+  color:black;
+  bottom: 10rem;
+  height: 6rem;
+  text-align: center;
+   
+}
+
+.p_portfolioLabelContainer p {
+  position: relative;
+  top: 15%;
+  font-style: italic;
+  font-weight: bold;
+}
+
+#portfolioContent{
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+}
+
+#portfolioFooter{
+  margin-top: 2rem;
+  margin-bottom: 25rem;
+  position: fixed;
+  bottom: 10;
+}
+
+#portfolioHeader{
+  text-align: center;
 }
