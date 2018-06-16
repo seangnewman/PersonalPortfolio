@@ -663,3 +663,35 @@ Portfolio
 #portfolioHeader{
   text-align: center;
 }
+
+#contactSection{
+  font-size: 3.5rem;
+  color:goldenrod;
+
+}
+
+#nameContainer{
+  font-size:4rem;
+  font-weight: bold;
+  margin-bottom:1.5rem;
+   
+}
+
+#emailTitle{
+  color:grey;
+}
+#emailAddress, #phoneNumber{
+  font-style: italic;
+  margin-left:4rem;
+  margin-bottom: 1rem;
+}
+
+#phoneTitle{
+  color:grey;
+}
+
+.socialMediaLinks{
+  
+  display: inline-flex;
+  justify-content: center;
+}
